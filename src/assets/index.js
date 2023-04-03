@@ -1,4 +1,6 @@
 import logo from "./logo.svg";
+import pnglogo from "./logos/sika-high-resolution-logo-color-on-transparent-background.png";
+
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -34,6 +36,7 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  pnglogo,
   backend,
   creator,
   mobile,
@@ -58,9 +61,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   jobit,
   tripguide,
   yTClone,
-  siktionary
+  siktionary,
+  materialUI
 };
