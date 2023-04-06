@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, carrent, jobit, tripguide, threejs, materialUI, yTClone, siktionary } from "../assets";
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, jobit, tripguide, threejs, materialUI, yTClone, siktionary } from "../assets";
   
   export const navLinks = [
     {
@@ -17,12 +17,16 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
-      title: "Frontend Developer",
-      icon: backend,
+      title: "Freelance Web Developer",
+      icon: web,
+    },
+    {
+      title: "Code Debugger",
+      icon: backend
     }
   ];
   
