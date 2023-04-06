@@ -22,7 +22,7 @@ const Computers = (isMobile) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.4 : 0.75}
-        position={ isMobile ? [0, -1.5, -1] : [0, -3.25, -1]}
+        position={ isMobile ? [0, -2.0, -1] : [0, -3.25, -1]}
         rotation={[0, -0.2, -0.03]}
       />
     </mesh>
@@ -32,9 +32,9 @@ const Computers = (isMobile) => {
 const ComputersCanvas = () => {
 
   const [isMobile, setIsMobile] = useState(false);
+  const mediaQuery = window.matchMedia("(max-width: 500px)");
 
   useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 500px)");
 
     setIsMobile(mediaQuery.matches);
 
