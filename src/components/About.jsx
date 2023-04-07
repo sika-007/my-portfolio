@@ -51,7 +51,7 @@ const About = () => {
         I'm a talented Frontend Engineer with extensive knowledge of HTML5, CSS3, Node.js, JavaScript(ES6), react.js, and tools such as Material UI, SASS/SCSS, tailwindcss, version control (Git and GitHub) and so much more. I've had proven successes in developing and deploying web applications and websites while being highly organized, detail-oriented and open to new ideas. I would absolutely love to be part of a team of talented people whom I can bring value to and also learn from as we build the web applications of the future.
       </motion.p>
 
-      <motion.div initial="hidden" whileInView="show" className="mt-20 flex flex-wrap gap-10">
+      <motion.div initial="hidden" viewport={{once: true}} whileInView="show" className="mt-20 flex flex-wrap gap-10">
         {serviceElements}
       </motion.div>
     </div>
