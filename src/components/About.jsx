@@ -18,10 +18,10 @@ const ServiceCard = ({ index, title, icon }) => {
             scale: 1,
             speed: 450
           }}
-          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[150px] flex justify-evenly items-center flex-col"
+          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[200px] flex justify-evenly items-center flex-col"
         >
           <img src={icon} alt="title" className="w-16 h-16 object-contain" />
-          <h3 className="text-center teext-white text-[20px] font-bold">{title}</h3>
+          <h3 className="text-center text-white text-[20px] font-bold">{title}</h3>
         </div>
       </motion.div>
     </Tilt>
