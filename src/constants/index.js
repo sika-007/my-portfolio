@@ -85,7 +85,7 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
     {
       title: "React.js Developer",
       company_name: "Self-Employed",
-      icon: starbucks,   //Rwview thi later
+      icon: javascript,   //Rwview thi later
       iconBg: "#383E56",
       date: "February, 2023 - March, 2023",
       points: [
