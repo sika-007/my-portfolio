@@ -33,7 +33,7 @@ const Navbar = () => {
           scrollTo(0, 0)
           }}>
             <img src={pnglogo} alt="logo" className="h-6 object-contain" />
-            <p className='text-white text-center text-[16px] font-light cursor-pointer'>Nsikak <span className='sm:inline block'>Thomas</span></p>
+            <p className='text-white text-left text-[16px] font-light cursor-pointer'>Nsikak <span className='sm:inline block'>Thomas</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {linkElements}
