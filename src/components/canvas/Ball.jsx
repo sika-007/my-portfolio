@@ -1,8 +1,7 @@
 import { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Decal, Float, Preload, useTexture, Sphere, Octahedron } from "@react-three/drei";
+import { OrbitControls, Decal, Float, Preload, useTexture } from "@react-three/drei";
 import CanvasLoader from "../Loader"
-import { IcosahedronGeometry, Triangle } from "three";
 
 const Ball = (props) => {
 
@@ -10,11 +9,11 @@ const Ball = (props) => {
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
-      <ambientLight intensity={0.25}/>
+      <ambientLight intensity={0.3}/>
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 10]} />
-        <meshStandardMaterial color="#fffaeb" polygonOffset polygonOffsetFactor={5} flatShading/>
+        <meshStandardMaterial color="white" polygonOffset polygonOffsetFactor={5} flatShading/>
         <Decal map={decal} position={[0, 0, 1]} rotation={[2*Math.PI, 0, Math.PI*2]} flatShading/>
       </mesh>
     </Float>
