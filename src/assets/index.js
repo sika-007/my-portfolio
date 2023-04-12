@@ -8,7 +8,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import eyeSolid from "./eye-solid.svg"
 import materialUI from "./material-ui.svg";
+import quizzical from "./quizzical.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -42,7 +44,9 @@ export {
   mobile,
   web,
   github,
+  eyeSolid,
   menu,
+  quizzical,
   close,
   css,
   docker,
