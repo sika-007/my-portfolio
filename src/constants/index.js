@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, jobit, tripguide, threejs, materialUI, yTClone, siktionary } from "../assets";
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, quizzical, docker, meta, starbucks, tesla, shopify, jobit, tripguide, threejs, materialUI, yTClone, siktionary } from "../assets";
   
   export const navLinks = [
     {
@@ -130,7 +130,7 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
     {
       name: "YouTube Clone",
       description:
-        "Web-based platform that allows users to watch, search and interact with YouTube Videos and Channels",
+        "Web-based platform that allows users to watch, search and interact with YouTube Videos and Channels.",
       tags: [
         {
           name: "react",
@@ -138,7 +138,7 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
         },
         {
           name: "rapid API",
-          color: "blue-text-gradient",
+          color: "green-text-gradient",
         },
         {
           name: "materialUI",
@@ -147,11 +147,12 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
       ],
       image: yTClone,
       source_code_link: "https://github.com/sika-007/youtube-clone",
+      live_site_link: "https://yt-clone-by-sika.netlify.app"
     },
     {
       name: "Siktionary",
       description:
-        "Web application that enables users to search words, their meanings, pronunciations - both audio and written, usage examples, synonyms, antonyms and so much more while providing a very attractive and intuitive user experience",
+        "Web application that enables users to search words, their meanings, pronunciations - both audio and written, usage examples, synonyms, antonyms and so much more while providing a very attractive and intuitive user experience.",
       tags: [
         {
           name: "react",
@@ -168,6 +169,29 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
       ],
       image: siktionary,
       source_code_link: "https://github.com/sika-007/siktionary",
+      live_site_link: "https://siktionary.netlify.app"
+    },
+    {
+      name: "Quizzical",
+      description:
+        "A light-weight and simple web application that renders an interactive and customizable quiz.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "opentdb API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: quizzical,
+      source_code_link: "https://github.com/sika-007/quizzical-app",
+      live_site_link: "https://quizzical-application.netlify.app/"
     }
   ];
   
