@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 import { styles } from '../style';
 import { navLinks } from '../constants';
-import {pnglogo, menu, close } from '../assets';
+import { pnglogo } from '../assets';
 
 /* Font family used for logo is the megrim font */
 
@@ -13,13 +13,13 @@ const Navbar = () => {
 
   const linkElements = navLinks.map(link => (
     <li key={link.id}>
-      <Link className={`${active === link.title ? "text-white" : "text-secondary"} sm:hover:text-white sm:text-[18px] font-medium sm:cursor-pointer font-poppins cursor-pointer`} to={`/${link.id}`} onClick={(e) => {
+      <a className={`${active === link.title ? "text-white" : "text-secondary"} sm:hover:text-white sm:text-[18px] font-medium sm:cursor-pointer font-poppins cursor-pointer`} href={`#${link.id}`} onClick={(e) => {
         e.stopPropagation()
         setActive(link.title)
         setToggle(false)
       }}>
         {link.title}
-      </Link>
+      </a>
     </li>
   ))
 
