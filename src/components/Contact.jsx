@@ -6,6 +6,10 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../HOC";
 import { slideIn } from "../utilities/motion";
 
+// template_ojr6l25
+// service_h03ku4d
+// EujvNh3ADNbu1LKyV
+
 
 const Contact = () => {
 
@@ -17,12 +21,43 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  function handleChange() {
-    return
+  function handleChange(e) {
+    const { name, value } = e.target;
+    setForm(prev => {
+      return {...prev, [name]: value}
+    })
   }
 
-  function handleSubmit() {
-    return
+  console.log(formRef.current)
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    setLoading(true);
+    emailjs.send(
+      "service_h03ku4d", 
+      "template_ojr6l25", 
+      {
+        form_name: form.name,
+        to_name: "Nsikak",
+        from_email: form.email,
+        to_email: "nsikakthomas102@gmail.com",
+        message: form.message
+      },
+      "EujvNh3ADNbu1LKyV"
+    )
+      .then(() => {
+        setLoading(false)
+        alert("Thanks for reaching out! I will get back to you as soon as possible.")
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        })
+      }, (error) => {
+        setLoading(false)
+        console.log(error)
+        alert("Something went wrong. Please try again later.")
+      })
   }
  
   return (
@@ -68,6 +103,7 @@ const Contact = () => {
 
           <button
            type="submit"
+           onSubmit={handleSubmit}
            className="bg-tertiary py-4 px-8 outline-none w-fit text-white font-bold shadow-md rounded-xl"
           >
             {loading ? "sending..." : "send"}
