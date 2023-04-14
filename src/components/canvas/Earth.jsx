@@ -14,7 +14,7 @@ const Earth = () => {
         object={Earth.scene}
         scale={2.5}
         rotation-y={0}
-      />s
+      />
     </mesh>
   )
 }
@@ -33,11 +33,12 @@ const EarthCanvas = () => {
        }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls 
+        <OrbitControls
           autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
+          autoRotateSpeed={1}
         />
         <Earth />
       </Suspense>
