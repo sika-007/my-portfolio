@@ -22,11 +22,11 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
     },
     {
       title: "Freelance Web Developer",
-      icon: web,
+      icon: creator,
     },
     {
-      title: "Code Debugger",
-      icon: backend
+      title: "JavaScript Debugger",
+      icon: mobile
     }
   ];
   
