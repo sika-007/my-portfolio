@@ -4,7 +4,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../style";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../HOC";
-import { staggerContainer, textVariant } from "../utilities/motion";
+import { textVariant } from "../utilities/motion";
 
 const ExperienceCard = ({ experience }) => {
 
