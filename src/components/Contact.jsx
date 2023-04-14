@@ -28,8 +28,6 @@ const Contact = () => {
     })
   }
 
-  console.log(formRef.current)
-
   function handleSubmit(e) {
     e.preventDefault();
     setLoading(true);
