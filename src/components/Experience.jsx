@@ -12,7 +12,6 @@ const ExperienceCard = ({ experience }) => {
     <li key={index} className="text-white text-[14px] pl-1 tracking-wider">{point}</li>
   ))
 
-  console.log(experience.points)
 
   return(
     <VerticalTimelineElement
