@@ -7,7 +7,7 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
     },
     {
       id: "work",
-      title: "Work",
+      title: "Projects",
     },
     {
       id: "contact",
