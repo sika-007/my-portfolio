@@ -30,32 +30,38 @@ const Contact = () => {
 
   function handleSubmit(e) {
     e.preventDefault();
-    setLoading(true);
-    emailjs.send(
-      "service_h03ku4d", 
-      "template_ojr6l25", 
-      {
-        form_name: form.name,
-        to_name: "Nsikak",
-        from_email: form.email,
-        to_email: "nsikakthomas102@gmail.com",
-        message: form.message
-      },
-      "EujvNh3ADNbu1LKyV"
-    )
-      .then(() => {
-        setLoading(false)
-        alert("Thanks for reaching out! I will get back to you as soon as possible.")
-        setForm({
-          name: "",
-          email: "",
-          message: "",
+    
+    if (form.name && form.email && form.message) {
+      setLoading(true);
+      emailjs.send(
+        "service_h03ku4d", 
+        "template_ojr6l25", 
+        {
+          form_name: form.name,
+          to_name: "Nsikak",
+          from_email: form.email,
+          to_email: "nsikakthomas102@gmail.com",
+          message: form.message
+        },
+        "EujvNh3ADNbu1LKyV"
+      )
+        .then(() => {
+          setLoading(false)
+          alert("Thanks for reaching out! I will get back to you as soon as possible.")
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          })
+        }, (error) => {
+          setLoading(false)
+          console.log(error)
+          alert("Something went wrong. Please try again later.")
         })
-      }, (error) => {
-        setLoading(false)
-        console.log(error)
-        alert("Something went wrong. Please try again later.")
-      })
+    } else {
+      setLoading(false)
+      alert("Please fill in the details correctly")
+    }
   }
  
   return (
