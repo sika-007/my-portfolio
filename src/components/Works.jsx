@@ -26,14 +26,14 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
       >
         <div>
           <div className="relative w-full h-[230px]">
-            <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
+            <img src={image} alt={name} loading="lazy" className="w-full h-full object-cover rounded-2xl" />
 
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
                 className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               >
-                <img src={github} alt="github" className="w-[80%] h-[80%] object-contain" />
+                <img src={github} alt="github" loading="lazy" className="w-[80%] h-[80%] object-contain" />
               </div>
             </div>
 
@@ -42,7 +42,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
                 onClick={() => window.open(live_site_link, "_blank")}
                 className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               >
-                <img src={eyeSolid} alt="eye" className="w-[80%] h-[80%] object-contain" />
+                <img src={eyeSolid} alt="eye" loading="lazy" className="w-[80%] h-[80%] object-contain" />
               </div>
             </div>
 
