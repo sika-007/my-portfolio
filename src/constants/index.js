@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, quizzical, docker, meta, starbucks, tesla, shopify, jobit, tripguide, threejs, materialUI, yTClone, siktionary } from "../assets";
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, git, figma, quizzical, threejs, yTClone, siktionary } from "../assets";
   
   export const navLinks = [
     {
