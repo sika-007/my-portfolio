@@ -22,6 +22,7 @@ import threejs from "./tech/threejs.svg";
 
 import yTClone from "./yt-clone.png";
 import siktionary from "./siktionary.png";
+import sumz from "./sumz.png"
 
 export {
   pnglogo,
@@ -45,4 +46,5 @@ export {
   threejs,
   yTClone,
   siktionary,
+  sumz
 };
