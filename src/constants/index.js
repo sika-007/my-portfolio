@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, git, figma, quizzical, threejs, yTClone, siktionary } from "../assets";
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, git, figma, quizzical, threejs, yTClone, siktionary, sumz } from "../assets";
   
   export const navLinks = [
     {
@@ -85,7 +85,7 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
     {
       title: "React.js Developer",
       company_name: "Self-Employed",
-      icon: reactjs,   //Rwview thi later
+      icon: reactjs, 
       iconBg: "#383E56",
       date: "February, 2023 - March, 2023",
       points: [
@@ -130,7 +130,7 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
     {
       name: "YouTube Clone",
       description:
-        "Web-based platform that allows users to watch, search and interact with YouTube Videos and Channels.",
+        "A Web-based platform that allows users to watch, search and interact with YouTube Videos and Channels.",
       tags: [
         {
           name: "react",
@@ -150,9 +150,31 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
       live_site_link: "https://yt-clone-by-sika.netlify.app"
     },
     {
+      name: "Sumz",
+      description:
+        "A web application that takes advantage of text mining artificial intelligence to give a summary of text in any website.",
+      tags: [
+        {
+          name: "react",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: sumz,
+      source_code_link: "https://github.com/sika-007/ai-summarizer",
+      live_site_link: "https://sumz-by-sika.netlify.app/"
+    },
+    {
       name: "Siktionary",
       description:
-        "Web application that enables users to search words, their meanings, pronunciations - both audio and written, usage examples, synonyms, antonyms and so much more while providing a very attractive and intuitive user experience.",
+        "A Web application that enables users to search words, their meanings, pronunciations - both audio and written, usage examples, synonyms, antonyms and so much more while providing a very attractive and intuitive user experience.",
       tags: [
         {
           name: "react",
