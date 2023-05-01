@@ -78,7 +78,7 @@ const Contact = () => {
               name="name" 
               value={form.name}
               onChange={handleChange}
-              placeholder="Your name"
+              placeholder="Name"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -89,7 +89,7 @@ const Contact = () => {
               name="email" 
               value={form.email}
               onChange={handleChange}
-              placeholder="Your email address"
+              placeholder="Email"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -110,7 +110,7 @@ const Contact = () => {
            onSubmit={handleSubmit}
            className="bg-tertiary py-4 px-8 outline-none w-fit text-white font-bold shadow-md rounded-xl"
           >
-            {loading ? "sending..." : "send"}
+            {loading ? "Sending..." : "Send"}
           </button>
         </form>
       </motion.div>
