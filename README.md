@@ -15,3 +15,5 @@ This website was built using the following technologies:
 - Three.js
 - Framer Motion
 - Tailwind CSS
+
+Click [Here](https://nsikakthomas.netlify.app) to see the live site
