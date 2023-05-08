@@ -45,6 +45,7 @@ const Hero = () => {
           </div>
         </a>
       </div>
+      <p className=' text-secondary absolute bottom-20 left-[25%] xs:bottom-12 xs:left-[33%] md:left-[39%] text-center lg:hidden animate-pulse'>Tap to <br /> scroll</p>
     </section>
   )
 }
