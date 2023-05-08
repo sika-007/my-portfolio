@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, git, figma, next, framerMotion, materialUI, quizzical, threejs, yTClone, siktionary, sumz,} from "../assets";
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, git, figma, next, materialUI, quizzical, threejs, yTClone, siktionary, sumz,} from "../assets";
   
   export const navLinks = [
     {
@@ -74,10 +74,6 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
     {
       name: "Figma",
       icon: figma,
-    },
-    {
-      name: "Framer",
-      icon: framerMotion
     },
     {
       name: "Material UI",

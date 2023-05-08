@@ -31,7 +31,7 @@ const Tech = () => {
 
   const techCards = technologies.map((technology, index) => {
 
-    if (index === 11 || index === 13) {
+    if (index === 11 || index === 12) {
       return (
         <div className="w-28 h-28 flex flex-col items-center" key={index}>
           <BallCard padding="py-2" smHeight="h-16" icon={technology.icon} />
