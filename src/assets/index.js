@@ -19,7 +19,6 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import framerMotion from "./tech/framer-motion.svg"
 import materialUI from "./tech/material-ui.png"
 import next from "./tech/next.png"
 
@@ -48,7 +47,6 @@ export {
   typescript,
   threejs,
   next,
-  framerMotion,
   materialUI,
   yTClone,
   siktionary,
