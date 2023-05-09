@@ -97,7 +97,7 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
       iconBg: "#383E56",
       date: "February, 2023 - Present",
       points: [
-        "Contributed to a variety of open-sourece projects by streamlining and testing code, fixing bugs and adding features.",
+        "Contributed to a variety of open-source projects by streamlining and testing code, fixing bugs and adding features.",
         "Leveraged mastery of React, Material UI, DOM manipulation, Logic iplementation with JavaScript, CSS, tailwindcss, Three.js, SCSS, Framer Motion and version control with Git and GitHub, to build top-quality code for over 10 personal and open-source projects.",
         "Implemented fetching and usage of data from an array of APIs in Rapid API's Hub, dictionaryapi.dev API, and opentdb.com API",
         "Debugged websites to identify and resolve potential problems.",
