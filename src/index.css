@@ -126,6 +126,10 @@
   transform: translateZ(0);
 }
 
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 @keyframes mulShdSpin {
   0%,
   100% {
