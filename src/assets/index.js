@@ -25,6 +25,7 @@ import next from "./tech/next.png"
 import yTClone from "./yt-clone.png";
 import siktionary from "./siktionary.png";
 import sumz from "./sumz.png"
+import slog from "./slog-desktop.png"
 
 export {
   pnglogo,
@@ -50,5 +51,6 @@ export {
   materialUI,
   yTClone,
   siktionary,
-  sumz
+  sumz,
+  slog
 };

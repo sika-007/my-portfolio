@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, git, figma, next, materialUI, quizzical, threejs, yTClone, siktionary, sumz,} from "../assets";
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, git, figma, next, materialUI, quizzical, threejs, yTClone, siktionary, sumz, slog} from "../assets";
   
   export const navLinks = [
     {
@@ -137,6 +137,50 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
   
   const projects = [
     {
+      name: "The Slog",
+      description:
+      "My own blog where I post weekly original content about frontend tools, frameworks and best practices. If you love web development as uch as I do and want to send in a post. Please feel free to reach out to me.",
+      tags: [
+        {
+          name: "NextJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "GraphQL",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "SASS",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: slog,
+      source_code_link: "https://github.com/sika-007/slog",
+      live_site_link: "https://slog-kappa.vercel.app/"
+    },
+    {
+      name: "Sumz",
+      description:
+      "A web application that takes advantage of text mining artificial intelligence to give a summary of text in any website.",
+      tags: [
+        {
+          name: "react",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: sumz,
+      source_code_link: "https://github.com/sika-007/ai-summarizer",
+      live_site_link: "https://sumz-by-sika.netlify.app/"
+    },
+    {
       name: "YouTube Clone",
       description:
         "A Web-based platform that allows users to watch, search and interact with YouTube Videos and Channels.",
@@ -159,28 +203,6 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
       live_site_link: "https://yt-clone-by-sika.netlify.app"
     },
     {
-      name: "Sumz",
-      description:
-        "A web application that takes advantage of text mining artificial intelligence to give a summary of text in any website.",
-      tags: [
-        {
-          name: "react",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "redux",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwindcss",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: sumz,
-      source_code_link: "https://github.com/sika-007/ai-summarizer",
-      live_site_link: "https://sumz-by-sika.netlify.app/"
-    },
-    {
       name: "Siktionary",
       description:
         "A Web application that enables users to search words, their meanings, pronunciations - both audio and written, usage examples, synonyms, antonyms and so much more while providing a very attractive and intuitive user experience.",
@@ -194,7 +216,7 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "SCSS",
           color: "pink-text-gradient",
         },
       ],
