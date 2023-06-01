@@ -139,7 +139,7 @@ import { mobile, backend, creator, web, javascript, typescript, html, css, react
     {
       name: "The Slog",
       description:
-      "My own blog where I post weekly original content about frontend tools, frameworks and best practices. If you love web development as uch as I do and want to send in a post. Please feel free to reach out to me.",
+      "My own blog where I post weekly original content about frontend tools, frameworks and best practices. If you love web development as much as I do and want to send in a post, I would love for us to have a chat.",
       tags: [
         {
           name: "NextJS",
