@@ -6,10 +6,6 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../HOC";
 import { slideIn } from "../utilities/motion";
 
-// template_ojr6l25
-// service_h03ku4d
-// EujvNh3ADNbu1LKyV
-
 
 const Contact = () => {
 
