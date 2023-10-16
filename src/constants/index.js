@@ -21,6 +21,8 @@ import {
   siktionary,
   sumz,
   slog,
+  dkg,
+  evvent,
 } from "../assets";
 
 export const navLinks = [
@@ -112,6 +114,35 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Frontend Engineer Contractor",
+    company_name: "Deep Knowledge Group (UK, Remote)",
+    icon: dkg,
+    iconBg: "white",
+    date: "September, 2023 - October, 2023",
+    points: [
+      "Developed Dynamic and interconnected geo-map components, bar Charts, and pie-charts using react-simple maps resulting in the creation of over 100 digital map regions for seamless data visualization.",
+      "implemented and modified open-source Topojson and Geojson map data for rendering of dynamic maps on the UI.",
+      "Collaborated in an Agile manner with a team of cross-functional and diverse members.",
+      "Implemented the use of version control tools like git and Microsoft’s Azure DevOps on an advanced level for efficient collaboration with over 30 developers on a single repository.",
+      "Collated and implemented project and feature requirements from users (in-house data analysts).",
+    ],
+  },
+  {
+    title: "Frontend Engineer Intern",
+    company_name: "Evvent As (Norway, Remote)",
+    icon: evvent,
+    iconBg: "white",
+    date: "June, 2023 - August, 2023",
+    points: [
+      "Built UI components and pages using React, TypeScript and NextJS which greatly improved dynamic routing, improved the SEO metrics of the application.",
+      "Implemented efficient state management solutions using React-Redux, Redux-toolkit, and Redux-Persist.",
+      "Collaborated in an Agile manner with cross-functional team sprints and participated with 100% of scrums held 3 times a week.",
+      "Created a Schema for service listings and bookings alongside a team of software developers, business developers, customer success staff and UX designers to ensure efficient and streamlined data collection.",
+      "Contributed to the project hosted on GitHub using git, managed pull requests, and participated in code reviews.",
+      "Used tools such as Slack, Asana, Meet, and GitHub Projects to stay up to date on tasks and to also have seamless communication with team leads and members",
+    ],
+  },
+  {
     title: "Frontend Engineer Volunteer",
     company_name: "United States of Africa (USA, Remote)",
     icon: typescript,
@@ -124,21 +155,6 @@ const experiences = [
       "Created efficient, readble and maintainable functions with JavaScript for ordering tabled items by date created, alphabetically, size, etc.",
       "Contributed to the project hosted on GitHub using git and ensuring a clean and ordered commit history for other developers to follow along.",
       "Used tools such as Trello, and WhatsApp to stay up to date on tasks and to also have seamless communication with scrum masters, team leads, and members",
-    ],
-  },
-  {
-    title: "Frontend Engineer Intern",
-    company_name: "Evvent As (Norway, Remote)",
-    icon: next,
-    iconBg: "white",
-    date: "June, 2023 - August, 2023",
-    points: [
-      "Built UI components and pages using React, TypeScript and NextJS which greatly improved dynamic routing, improved the SEO metrics of the application.",
-      "Implemented efficient state management solutions using React-Redux, Redux-toolkit, and Redux-Persist.",
-      "Collaborated in an Agile manner with cross-functional team sprints and participated with 100% of scrums held 3 times a week.",
-      "Created a Schema for service listings and bookings alongside a team of software developers, business developers, customer success staff and UX designers to ensure efficient and streamlined data collection.",
-      "Contributed to the project hosted on GitHub using git, managed pull requests, and participated in code reviews.",
-      "Used tools such as Slack, Asana, Meet, and GitHub Projects to stay up to date on tasks and to also have seamless communication with team leads and members",
     ],
   },
   {
