@@ -24,6 +24,7 @@ import {
   dkg,
   evvent,
 } from "../assets";
+import { muhammad } from "../assets/people";
 
 export const navLinks = [
   {
@@ -114,6 +115,21 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Frontend Engineer Intern",
+    company_name: "Evvent As (Norway, Remote)",
+    icon: evvent,
+    iconBg: "white",
+    date: "June, 2023 - December, 2023",
+    points: [
+      "Built UI components and pages using React, TypeScript and NextJS which greatly improved dynamic routing, improved the SEO metrics of the application.",
+      "Implemented efficient state management solutions using React-Redux, Redux-toolkit, and Redux-Persist.",
+      "Collaborated in an Agile manner with cross-functional team sprints and participated with 100% of scrums held 3 times a week.",
+      "Created a Schema for service listings and bookings alongside a team of software developers, business developers, customer success staff and UX designers to ensure efficient and streamlined data collection.",
+      "Contributed to the project hosted on GitHub using git, managed pull requests, and participated in code reviews.",
+      "Used tools such as Slack, Asana, Meet, and GitHub Projects to stay up to date on tasks and to also have seamless communication with team leads and members",
+    ],
+  },
+  {
     title: "Frontend Engineer Contractor",
     company_name: "Deep Knowledge Group (UK, Remote)",
     icon: dkg,
@@ -128,31 +144,16 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Engineer Intern",
-    company_name: "Evvent As (Norway, Remote)",
-    icon: evvent,
-    iconBg: "white",
-    date: "June, 2023 - August, 2023",
-    points: [
-      "Built UI components and pages using React, TypeScript and NextJS which greatly improved dynamic routing, improved the SEO metrics of the application.",
-      "Implemented efficient state management solutions using React-Redux, Redux-toolkit, and Redux-Persist.",
-      "Collaborated in an Agile manner with cross-functional team sprints and participated with 100% of scrums held 3 times a week.",
-      "Created a Schema for service listings and bookings alongside a team of software developers, business developers, customer success staff and UX designers to ensure efficient and streamlined data collection.",
-      "Contributed to the project hosted on GitHub using git, managed pull requests, and participated in code reviews.",
-      "Used tools such as Slack, Asana, Meet, and GitHub Projects to stay up to date on tasks and to also have seamless communication with team leads and members",
-    ],
-  },
-  {
     title: "Frontend Engineer Volunteer",
     company_name: "United States of Africa (USA, Remote)",
     icon: typescript,
     iconBg: "white",
-    date: "June, 2023 - Present",
+    date: "June, 2023 - September, 2023",
     points: [
       "Built UI components using JSX, tailwind CSS, and HTML tables to enable user track recorded videos and information related to them.",
       "Collaborated in an Agile manner with a team of diverse members. Participated in in 100% of daily scrums.",
       "Collaborated in an Agile manner with cross-functional team sprints and participated with 100% of scrums held 3 times a week.",
-      "Created efficient, readble and maintainable functions with JavaScript for ordering tabled items by date created, alphabetically, size, etc.",
+      "Created efficient, readable and maintainable functions with JavaScript for ordering tabled items by date created, alphabetically, size, etc.",
       "Contributed to the project hosted on GitHub using git and ensuring a clean and ordered commit history for other developers to follow along.",
       "Used tools such as Trello, and WhatsApp to stay up to date on tasks and to also have seamless communication with scrum masters, team leads, and members",
     ],
@@ -165,7 +166,7 @@ const experiences = [
     date: "February, 2023 - June, 2023",
     points: [
       "Contributed to a variety of open-source projects by streamlining and testing code, fixing bugs and adding features.",
-      "Leveraged mastery of React, Material UI, DOM manipulation, Logic iplementation with JavaScript, CSS, tailwindcss, Three.js, SCSS, Framer Motion and version control with Git and GitHub, to build top-quality code for over 10 personal and open-source projects.",
+      "Leveraged mastery of React, Material UI, DOM manipulation, Logic implementation with JavaScript, CSS, tailwindcss, Three.js, SCSS, Framer Motion and version control with Git and GitHub, to build top-quality code for over 10 personal and open-source projects.",
       "Implemented fetching and usage of data from an array of APIs in Rapid API's Hub, dictionaryapi.dev API, and opentdb.com API",
       "Debugged websites to identify and resolve potential problems.",
       "Created complex yet readable and maintainable code for react components and algorithms that convert raw data received from the APIs into dynamic and presentable information to give users the best experience.",
@@ -175,25 +176,12 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial: "",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
-  },
-  {
-    testimonial: "",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
-  },
-  {
-    testimonial: "",
-    name: "",
-    designation: "",
-    company: "",
-    image: "",
+    testimonial:
+      "Nsikak is an excellent front-end developer who goes above and beyond by suggesting improvements to the design and translating the concept into a code-based solution. Additionally, he viewed my design from a fresh angle. \nIn addition to his skill as a front-end developer, Nsikak's disposition boosts the spirit of teamwork. not to mention that Nsikak is a trustworthy man who gives his all to the tasks he does.",
+    name: "Mohammad Naufal Giffari",
+    designation: "UI/UX Designer",
+    company: "Evvent AS",
+    image: muhammad,
   },
 ];
 
