@@ -24,7 +24,7 @@ import {
   dkg,
   evvent,
 } from "../assets";
-import { muhammad } from "../assets/people";
+import { muhammad, zakaria } from "../assets/people";
 
 export const navLinks = [
   {
@@ -177,8 +177,16 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Nsikak is an excellent front-end developer who goes above and beyond by suggesting improvements to the design and translating the concept into a code-based solution. Additionally, he viewed my design from a fresh angle. \nIn addition to his skill as a front-end developer, Nsikak's disposition boosts the spirit of teamwork. not to mention that Nsikak is a trustworthy man who gives his all to the tasks he does.",
-    name: "Mohammad Naufal Giffari",
+      "...One of Nsikak's standout qualities is his creativity and resilience in completing tasks. He would always find a way to tackle problems no matter how difficult they seemed to be. This was very essential to us as a startup.",
+    name: "Zakaria Bougroug",
+    designation: "CTO",
+    company: "Evvent AS",
+    image: zakaria,
+  },
+  {
+    testimonial:
+      "Nsikak viewed my design from a fresh angle. In addition to his skill as a front-end developer, Nsikak's disposition boosts the spirit of teamwork. Not to mention that Nsikak is a trustworthy man who gives his all to the tasks he does.",
+    name: "Mohammad N. Giffari",
     designation: "UI/UX Designer",
     company: "Evvent AS",
     image: muhammad,

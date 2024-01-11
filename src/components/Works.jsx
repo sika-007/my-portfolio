@@ -6,13 +6,20 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utilities/motion";
 import { github, eyeSolid } from "../assets";
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link, live_site_link }) => {
-
-  const tagElements = tags.map(tag => (
+const ProjectCard = ({
+  index,
+  name,
+  description,
+  tags,
+  image,
+  source_code_link,
+  live_site_link,
+}) => {
+  const tagElements = tags.map((tag) => (
     <p key={tag.name} className={`text-14px ${tag.color}`}>
       #{tag.name}
     </p>
-  ))
+  ));
 
   return (
     <motion.div variants={fadeIn("up", "spring", index * 1, 0.75)}>
@@ -26,14 +33,24 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
       >
         <div>
           <div className="relative w-full h-[230px]">
-            <img src={image} alt={name} loading="lazy" className="w-full h-full object-cover rounded-2xl" />
+            <img
+              src={image}
+              alt={name}
+              loading="lazy"
+              className="w-full h-full object-cover rounded-2xl"
+            />
 
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
                 className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               >
-                <img src={github} alt="github" loading="lazy" className="w-[80%] h-[80%] object-contain" />
+                <img
+                  src={github}
+                  alt="github"
+                  loading="lazy"
+                  className="w-[80%] h-[80%] object-contain"
+                />
               </div>
             </div>
 
@@ -42,10 +59,14 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
                 onClick={() => window.open(live_site_link, "_blank")}
                 className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               >
-                <img src={eyeSolid} alt="eye" loading="lazy" className="w-[80%] h-[80%] object-contain" />
+                <img
+                  src={eyeSolid}
+                  alt="eye"
+                  loading="lazy"
+                  className="w-[80%] h-[80%] object-contain"
+                />
               </div>
             </div>
-
           </div>
 
           <div className="mt-4">
@@ -54,29 +75,20 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
           </div>
         </div>
 
-        <div className="flex flex-wrap gap-2 mt-2 sm:mt-0">
-          {tagElements}
-        </div>
+        <div className="flex flex-wrap gap-2 mt-2 sm:mt-0">{tagElements}</div>
       </Tilt>
     </motion.div>
-  )
-}
+  );
+};
 
 const Works = () => {
-
   const projectElements = projects.map((project, index) => (
-    <ProjectCard
-      key={`projext-${index}`}
-      index={index}
-      {...project}
-    />
-  )) 
+    <ProjectCard key={`projext-${index}`} index={index} {...project} />
+  ));
 
   return (
     <>
-      <motion.div
-        variants={textVariant()}
-      >
+      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What I've done so far</p>
         <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
@@ -86,15 +98,24 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          These are a few projects to showcase my skills and experience. Each project is briefly descirbed with links to its source code and a live demo. These projects are a testimony of my resourcefulness and tenacity in solving problems and coming up with new ways of implementing solutions where needed.
+          These are a few of my personal side projects to showcase my skills and
+          experience. Each project is briefly described with links to its source
+          code and a live demo. These projects are a testimony of my
+          resourcefulness and tenacity in solving problems and coming up with
+          new ways of implementing solutions where needed.
         </motion.p>
       </div>
 
-      <motion.div initial="hidden" whileInView="show" viewport={{once: true}} className="mt-20 flex flex-wrap gap-7 items-stretch h-full">
+      <motion.div
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true }}
+        className="mt-20 flex flex-wrap gap-7 items-stretch h-full"
+      >
         {projectElements}
       </motion.div>
     </>
-  )
-}
+  );
+};
 
-export default SectionWrapper(Works, "work")
+export default SectionWrapper(Works, "work");
