@@ -11,7 +11,10 @@ import { textVariant } from "../utilities/motion";
 
 const ExperienceCard = ({ experience }) => {
   const experienceListElements = experience.points.map((point, index) => (
-    <li key={index} className="text-white text-[14px] pl-1 tracking-wider">
+    <li
+      key={index}
+      className="text-white text-[12px] md:text-[14px] pl-1 tracking-wider leading-snug md:leading-normal font-light md:font-normal"
+    >
       {point}
     </li>
   ));
