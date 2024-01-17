@@ -40,10 +40,10 @@ const ProjectCard = ({
               className="w-full h-full object-cover rounded-2xl"
             />
 
-            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+            <div className="absolute inset-0 flex justify-end m-1 card-img_hover">
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
-                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                className="black-gradient w-7 h-7 rounded-full flex justify-center items-center cursor-pointer"
               >
                 <img
                   src={github}
@@ -54,10 +54,10 @@ const ProjectCard = ({
               </div>
             </div>
 
-            <div className="absolute inset-0 flex sjustify-end m-3 right-11 card-img_hover">
+            <div className="absolute inset-0 flex justify-end m-1 right-11 card-img_hover">
               <div
                 onClick={() => window.open(live_site_link, "_blank")}
-                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                className="black-gradient w-7 h-7 rounded-full flex justify-center items-center cursor-pointer"
               >
                 <img
                   src={eyeSolid}
@@ -83,7 +83,7 @@ const ProjectCard = ({
 
 const Works = () => {
   const projectElements = projects.map((project, index) => (
-    <ProjectCard key={`projext-${index}`} index={index} {...project} />
+    <ProjectCard key={`project-${index}`} index={index} {...project} />
   ));
 
   return (
