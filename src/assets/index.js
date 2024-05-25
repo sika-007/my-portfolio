@@ -15,10 +15,11 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import fastapi from "./tech/fastapi.svg";
+import python from "./tech/python.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 import materialUI from "./tech/material-ui.png";
 import next from "./tech/next.png";
 
@@ -29,6 +30,7 @@ import slog from "./slog-desktop.png";
 
 import dkg from "./companies/dkg-logo.jpg";
 import evvent from "./companies/evvent-logo.ico";
+import migro from "./companies/migro.png";
 
 export {
   dkg,
@@ -51,11 +53,13 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
   next,
+  fastapi,
+  python,
   materialUI,
   yTClone,
   siktionary,
   sumz,
   slog,
+  migro,
 };

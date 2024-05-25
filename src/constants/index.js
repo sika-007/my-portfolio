@@ -16,13 +16,15 @@ import {
   next,
   materialUI,
   quizzical,
-  threejs,
   yTClone,
   siktionary,
   sumz,
   slog,
   dkg,
   evvent,
+  migro,
+  python,
+  fastapi,
 } from "../assets";
 import { muhammad, zakaria } from "../assets/people";
 
@@ -43,7 +45,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Developer",
+    title: "Fullstack Web Developer",
     icon: web,
   },
   {
@@ -82,6 +84,14 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "FastAPI",
+    icon: fastapi,
+  },
+  {
     name: "Tailwindcss",
     icon: tailwind,
   },
@@ -90,20 +100,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "Git",
     icon: git,
-  },
-  {
-    name: "Figma",
-    icon: figma,
-  },
-  {
-    name: "Material UI",
-    icon: materialUI,
   },
   {
     name: "Next JS",
@@ -114,6 +112,20 @@ const technologies = [
 // The array below is subject to change as time goes on
 
 const experiences = [
+  {
+    title: "Lead Fullstack/Frontend Developer",
+    company_name: "Migro",
+    icon: migro,
+    iconBg: "white",
+    date: "February, 2024 - May, 2024",
+    points: [
+      "Built about 100+ frontend components using React, TailwindCSS and a number of other libraries and tools.",
+      "Developed resilient state management solutions using React-Redux, Redux Toolkit, and Redux-Persist to improve performance and ease of maintenance.",
+      "Optimized storage of vital user data while adhering to best practices, causing a 20% improvement in data access speed and maintaining a 98% data integrity rate.",
+      "As the sole developer under the CEO's direction, I embraced Agile practices, contributing to 15+ scrums, accounting for over 90% of all sessions.",
+      "Played a key role in defining the software architecture on both the client-side and server-side, implementing robust design patterns that contributed to scalability and maintainability of the application architecture.",
+    ],
+  },
   {
     title: "Frontend Engineer Intern",
     company_name: "Evvent As (Norway, Remote)",
