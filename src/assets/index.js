@@ -5,6 +5,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import linkedin from "./linkedin.svg";
 import eyeSolid from "./eye-solid.svg";
 import quizzical from "./quizzical.png";
 
@@ -57,6 +58,7 @@ export {
   fastapi,
   python,
   materialUI,
+  linkedin,
   yTClone,
   siktionary,
   sumz,
