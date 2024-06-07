@@ -53,11 +53,32 @@ const Navbar = () => {
         </Link>
         <ul className="list-none hidden md:flex flex-row gap-10">
           <li>
-            <a href="https://linkedin.com/in/dev-sika">
+            <a
+              style={{
+                display: "flex",
+                flexDirection: "row",
+                gap: "4px",
+                justifyContent: "between",
+                alignItems: "center",
+                padding: "7px",
+                textAlign: "center",
+                outline: "none",
+                textDecoration: "none",
+                color: "#ffffff !important",
+                width: "fit-content",
+                height: "fit-content",
+                borderRadius: "16px",
+                backgroundColor: "#0A66C2",
+                fontFamily: "SF Pro Text, Helvetica, sans-serif",
+              }}
+              href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=dev-sika"
+              target="_blank"
+            >
+              <p className="hidden lg:block">Follow on LinkedIn</p>
               <img
+                className="bg-transparent p-[2px] w-4 h-4 rounded-sm"
                 src={linkedin}
                 alt="linkedin"
-                className="w-6 h-6 p-1 bg-white rounded-sm"
               />
             </a>
           </li>
@@ -116,14 +137,27 @@ const Navbar = () => {
                   className="flex items-center flex-row-reverse gap-1"
                   href="https://linkedin.com/in/dev-sika"
                 >
-                  <img
-                    src={linkedin}
-                    alt="linkedin"
-                    className="bg-white w-6 h-6 p-1 rounded-sm"
-                  />
-                  <p className=" text-secondary font-poppins sm:hover:text-white sm:text-[18px] font-medium">
+                  <a
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      justifyContent: "center",
+                      padding: "2px",
+                      textAlign: "center",
+                      outline: "none",
+                      textDecoration: "none",
+                      color: "#ffffff !important",
+                      width: "120px",
+                      height: "32px",
+                      borderRadius: "6px",
+                      backgroundColor: "#0A66C2",
+                      fontFamily: "SF Pro Text, Helvetica, sans-serif",
+                    }}
+                    href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=dev-sika"
+                    target="_blank"
+                  >
                     LinkedIn
-                  </p>
+                  </a>
                 </a>
               </li>
             </ul>
