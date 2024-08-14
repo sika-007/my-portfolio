@@ -25,6 +25,7 @@ import {
   migro,
   python,
   fastapi,
+  cando,
 } from "../assets";
 import { muhammad, zakaria } from "../assets/people";
 
@@ -229,6 +230,28 @@ const projects = [
     image: slog,
     source_code_link: "https://github.com/sika-007/slog",
     live_site_link: "https://slog-kappa.vercel.app/",
+  },
+  {
+    name: "Cando",
+    description:
+      "Easy-to-use and functional todo application that works with localStorage for creating, editing, deleting, and sorting to-dos, Or Can-dos as I like to call them, with a cool drag and drop feature",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Toastify",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: cando,
+    source_code_link: "https://github.com/sika-007/can-do",
+    live_site_link: "https://can-do-app.netlify.app",
   },
   {
     name: "Sumz",

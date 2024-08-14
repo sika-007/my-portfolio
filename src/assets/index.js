@@ -28,6 +28,7 @@ import yTClone from "./yt-clone.png";
 import siktionary from "./siktionary.png";
 import sumz from "./sumz.png";
 import slog from "./slog-desktop.png";
+import cando from "./can-do-app.png";
 
 import dkg from "./companies/dkg-logo.jpg";
 import evvent from "./companies/evvent-logo.ico";
@@ -64,4 +65,5 @@ export {
   sumz,
   slog,
   migro,
+  cando,
 };
