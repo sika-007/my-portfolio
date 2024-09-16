@@ -26,6 +26,8 @@ import {
   python,
   fastapi,
   cando,
+  nextAdmin,
+  migro_portfolio,
 } from "../assets";
 import { muhammad, zakaria } from "../assets/people";
 
@@ -210,6 +212,50 @@ const testimonials = [
 
 const projects = [
   {
+    name: "NextAdmin Dashboard",
+    description:
+      "Full Stack project built for data visualization complete tables and charts. Complete with pagination, authentication and more!",
+    tags: [
+      {
+        name: "NextJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "PostgreSQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Drizzle ORM",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: nextAdmin,
+    source_code_link: "https://github.com/sika-007/next-15-admin-dashboard",
+    live_site_link: "https://next-15-admin-dashboard-seven.vercel.app/",
+  },
+  {
+    name: "Migro",
+    description:
+      "Fullstack travel application built with React and Python to facilitate the ease of migration of people in Spanish-speaking countries to Spain.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "FastAPI",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: migro_portfolio,
+    source_code_link: "#",
+    live_site_link: "https://www.migro.es",
+  },
+  {
     name: "The Slog",
     description:
       "My own blog where I post weekly original content about frontend tools, frameworks and best practices. If you love web development as much as I do and want to send in a post, I would love for us to have a chat.",
@@ -253,7 +299,7 @@ const projects = [
     source_code_link: "https://github.com/sika-007/can-do",
     live_site_link: "https://can-do-app.netlify.app",
   },
-  {
+  /* {
     name: "Sumz",
     description:
       "A web application that takes advantage of text mining artificial intelligence to give a summary of text in any website.",
@@ -274,8 +320,8 @@ const projects = [
     image: sumz,
     source_code_link: "https://github.com/sika-007/ai-summarizer",
     live_site_link: "https://sumz-by-sika.netlify.app/",
-  },
-  {
+  }, */
+  /* {
     name: "YouTube Clone",
     description:
       "A Web-based platform that allows users to watch, search and interact with YouTube Videos and Channels.",
@@ -296,7 +342,29 @@ const projects = [
     image: yTClone,
     source_code_link: "https://github.com/sika-007/youtube-clone",
     live_site_link: "https://yt-clone-by-sika.netlify.app",
-  },
+  }, */
+  /* {
+    name: "Quizzical",
+    description:
+    "A light-weight and simple web application that renders an interactive and customizable quiz.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "opentdb API",
+        color: "green-text-gradient",
+        },
+        {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      ],
+      image: quizzical,
+      source_code_link: "https://github.com/sika-007/quizzical-app",
+      live_site_link: "https://quizzical-application.netlify.app/",
+      }, */
   {
     name: "Siktionary",
     description:
@@ -318,28 +386,6 @@ const projects = [
     image: siktionary,
     source_code_link: "https://github.com/sika-007/siktionary",
     live_site_link: "https://siktionary.netlify.app",
-  },
-  {
-    name: "Quizzical",
-    description:
-      "A light-weight and simple web application that renders an interactive and customizable quiz.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "opentdb API",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: quizzical,
-    source_code_link: "https://github.com/sika-007/quizzical-app",
-    live_site_link: "https://quizzical-application.netlify.app/",
   },
 ];
 

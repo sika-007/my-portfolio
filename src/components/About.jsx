@@ -52,19 +52,31 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
-      <motion.p
+      <motion.div
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         variants={fadeIn("", "", 0.1, 1)}
       >
-        I'm a talented Fullstack Engineer with extensive knowledge of HTML5,
-        CSS3, Node.js, JavaScript(ES6), react.js, Python and tools such as
-        TypeScript, Material UI, SASS/SCSS, tailwindcss, version control (Git
-        and GitHub) and so much more. I've had proven successes in developing
-        and deploying web applications and websites while being highly
-        organized, detail-oriented and open to new ideas. I would absolutely
-        love to be part of a team of talented people whom I can bring value to
-        and also learn from as we build the web applications of the future.
-      </motion.p>
+        <motion.p className="mb-5">
+          With 2+ years of Fullstack Engineering experience and deep expertise
+          in HTML5, CSS3, Node.js, JavaScript (ES6), React.js, and Python,
+          alongside a strong command of tools like TypeScript, Material UI,
+          SASS/SCSS, TailwindCSS, and version control systems (Git, GitHub).
+        </motion.p>
+
+        <motion.p className="mb-5">
+          With proven success in developing and deploying scalable web
+          applications and solutions, I bring a mix of technical excellence and
+          creativity to every project. My approach is highly organized,
+          detail-oriented, and always open to new ideas and innovative
+          solutions.
+        </motion.p>
+
+        <motion.p>
+          I thrive in collaborative environments and love to work in teams of
+          talented professionals where I can bring immediate value and continue
+          to learn and grow as we build the applications of the future.
+        </motion.p>
+      </motion.div>
 
       <motion.div
         initial="hidden"

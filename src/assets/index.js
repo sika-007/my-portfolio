@@ -29,41 +29,45 @@ import siktionary from "./siktionary.png";
 import sumz from "./sumz.png";
 import slog from "./slog-desktop.png";
 import cando from "./can-do-app.png";
+import migro_portfolio from "./migro.png";
+import nextAdmin from "./next-admin.png";
 
 import dkg from "./companies/dkg-logo.jpg";
 import evvent from "./companies/evvent-logo.ico";
 import migro from "./companies/migro.png";
 
 export {
+  backend,
+  cando,
+  creator,
+  css,
   dkg,
   evvent,
-  pnglogo,
-  backend,
-  creator,
-  mobile,
-  web,
-  github,
   eyeSolid,
-  quizzical,
-  css,
+  fastapi,
   figma,
   git,
+  github,
   html,
   javascript,
+  linkedin,
+  materialUI,
+  migro_portfolio,
+  migro,
+  mobile,
+  next,
+  nextAdmin,
   nodejs,
+  pnglogo,
+  python,
+  quizzical,
   reactjs,
   redux,
+  siktionary,
+  slog,
+  sumz,
   tailwind,
   typescript,
-  next,
-  fastapi,
-  python,
-  materialUI,
-  linkedin,
+  web,
   yTClone,
-  siktionary,
-  sumz,
-  slog,
-  migro,
-  cando,
 };
