@@ -57,7 +57,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
       >
         <motion.p className="mb-5">
-          With 2+ years of Fullstack Engineering experience and deep expertise
+          With 3 years of Fullstack Engineering experience and deep expertise
           in HTML5, CSS3, Node.js, JavaScript (ES6), React.js, and Python,
           alongside a strong command of tools like TypeScript, Material UI,
           SASS/SCSS, TailwindCSS, and version control systems (Git, GitHub).
