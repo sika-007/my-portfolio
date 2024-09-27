@@ -29,7 +29,7 @@ import {
   nextAdmin,
   migro_portfolio,
 } from "../assets";
-import { muhammad, zakaria } from "../assets/people";
+import { muhammad, sifon, zakaria } from "../assets/people";
 
 export const navLinks = [
   {
@@ -193,7 +193,7 @@ const testimonials = [
   {
     testimonial:
       "...One of Nsikak's standout qualities is his creativity and resilience in completing tasks. He would always find a way to tackle problems no matter how difficult they seemed to be. This was very essential to us as a startup.",
-    name: "Zakaria Bougroug",
+    name: "Zakaria B.",
     designation: "CTO",
     company: "Evvent AS",
     image: zakaria,
@@ -201,10 +201,18 @@ const testimonials = [
   {
     testimonial:
       "Nsikak viewed my design from a fresh angle. In addition to his skill as a front-end developer, Nsikak's disposition boosts the spirit of teamwork. Not to mention that Nsikak is a trustworthy man who gives his all to the tasks he does.",
-    name: "Mohammad N. Giffari",
+    name: "Mohammad N.",
     designation: "UI/UX Designer",
     company: "Evvent AS",
     image: muhammad,
+  },
+  {
+    testimonial:
+      "Nsikak was instrumental in enhancing my online reach by helping me build a portfolio website. He exceeded my expectations. I highly recommend him as a Web developer for your project!",
+    name: "Sifon T.",
+    designation: "Top Rated Freelancer",
+    company: "Upwork",
+    image: sifon,
   },
 ];
 
