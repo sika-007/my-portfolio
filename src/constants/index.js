@@ -28,6 +28,10 @@ import {
   cando,
   nextAdmin,
   migro_portfolio,
+  kindocean,
+  mertra,
+  aimgreen,
+  liquid,
 } from "../assets";
 import { muhammad, sifon, zakaria } from "../assets/people";
 
@@ -73,6 +77,10 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "Liquid",
+    icon: liquid,
   },
   {
     name: "TypeScript",
@@ -219,6 +227,69 @@ const testimonials = [
 // The module below is still subject to change as more and more projects get completed
 
 const projects = [
+  {
+    name: "Kind Ocean E-commerce Website",
+    description:
+      "Custom shopify e-commerce website built with liquid, HTML, CSS and custom JavaScript. Over 50+ store 5 star reviews and counting",
+    tags: [
+      {
+        name: "Shopify",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Liquid",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: kindocean,
+    live_site_link: "https://www.kindocean.com.au",
+  },
+  {
+    name: "Aimgreen E-commerce Website",
+    description:
+      "Custom shopify e-commerce website built with liquid, HTML, CSS and custom JavaScript.",
+    tags: [
+      {
+        name: "Shopify",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Liquid",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: aimgreen,
+    live_site_link: "https://www.aimgreenbbs.com/",
+  },
+  {
+    name: "Mertra Mertra E-commerce Website",
+    description:
+      "Custom shopify e-commerce website built with liquid, HTML, CSS and custom JavaScript.",
+    tags: [
+      {
+        name: "Shopify",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Liquid",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: mertra,
+    live_site_link: "https://www.mertra.com/",
+  },
   {
     name: "NextAdmin Dashboard",
     description:
