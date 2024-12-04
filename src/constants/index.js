@@ -56,7 +56,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Freelance Web Developer",
+    title: "E-Commerce Developer",
     icon: creator,
   },
   {
