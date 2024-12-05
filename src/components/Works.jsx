@@ -41,17 +41,19 @@ const ProjectCard = ({
             />
 
             <div className="absolute inset-0 flex justify-end m-1 card-img_hover">
-              <div
-                onClick={() => window.open(source_code_link, "_blank")}
-                className="black-gradient w-7 h-7 rounded-full flex justify-center items-center cursor-pointer"
-              >
-                <img
-                  src={github}
-                  alt="github"
-                  loading="lazy"
-                  className="w-[80%] h-[80%] object-contain"
-                />
-              </div>
+              {source_code_link && (
+                <div
+                  onClick={() => window.open(source_code_link, "_blank")}
+                  className="black-gradient w-7 h-7 rounded-full flex justify-center items-center cursor-pointer"
+                >
+                  <img
+                    src={github}
+                    alt="github"
+                    loading="lazy"
+                    className="w-[80%] h-[80%] object-contain"
+                  />
+                </div>
+              )}
             </div>
 
             <div className="absolute inset-0 flex justify-end m-1 right-11 card-img_hover">
