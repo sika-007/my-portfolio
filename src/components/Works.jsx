@@ -98,11 +98,12 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          These are a few of my personal side projects to showcase my skills and
-          experience. Each project is briefly described with links to its source
-          code and a live demo. These projects are a testimony of my
-          resourcefulness and tenacity in solving problems and coming up with
-          new ways of implementing solutions where needed.
+          These are a few of my commercial and personal projects to showcase my
+          skills and experience. Each project is briefly described with links to
+          its source code (for projects owned by me) and a live demo. These
+          projects are a testimony of my resourcefulness and tenacity in solving
+          problems and coming up with new ways of implementing solutions where
+          needed.
         </motion.p>
       </div>
 
