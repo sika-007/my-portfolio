@@ -26,6 +26,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
 import aimgreen from "./aimgreen_image.png";
+import ef420 from "./ef420.png";
 import cando from "./can-do-app.png";
 import kindocean from "./kindocean_image.png";
 import mertra from "./mertra_image.png";
@@ -39,16 +40,21 @@ import yTClone from "./yt-clone.png";
 import dkg from "./companies/dkg-logo.jpg";
 import evvent from "./companies/evvent-logo.ico";
 import migro from "./companies/migro.png";
+import everse_soft_logo from "./companies/everse_soft_logo.jpeg";
+import byteex_logo from "./companies/byteex_logo.jpeg";
 
 export {
   aimgreen,
   backend,
   cando,
+  byteex_logo,
   creator,
   css,
   dkg,
   evvent,
   eyeSolid,
+  ef420,
+  everse_soft_logo,
   fastapi,
   figma,
   git,

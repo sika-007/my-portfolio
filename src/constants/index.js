@@ -1,6 +1,5 @@
 import {
   mobile,
-  backend,
   creator,
   web,
   javascript,
@@ -12,13 +11,8 @@ import {
   tailwind,
   nodejs,
   git,
-  figma,
   next,
-  materialUI,
-  quizzical,
-  yTClone,
   siktionary,
-  sumz,
   slog,
   dkg,
   evvent,
@@ -32,6 +26,9 @@ import {
   mertra,
   aimgreen,
   liquid,
+  ef420,
+  everse_soft_logo,
+  byteex_logo
 } from "../assets";
 import { muhammad, sifon, zakaria } from "../assets/people";
 
@@ -123,6 +120,32 @@ const technologies = [
 // The array below is subject to change as time goes on
 
 const experiences = [
+  {
+    title: "Shopify Plus Developer",
+    company_name: "Everse/Hed Technologies",
+    icon: everse_soft_logo,
+    iconBg: "white",
+    date: "May 2025 - Present",
+    points: [
+      "Built custom discount function that reduced reliance on third-party apps and helped saved about $4000 in monthly app fees.",
+      "Developed a custom logic heavy cart drawer from scratch",
+      "Performed updates, upgrades and stability improvements to legacy code from previous versions of the Dawn theme.",
+      "Implemented permanent fixes to recurring bugs on the live theme.",
+      "Played a key role in decision making for updates and software implementation strategies",
+    ],
+  },
+  {
+    title: "Shopify Developer",
+    company_name: "Byteex",
+    icon: byteex_logo,
+    iconBg: "white",
+    date: "October, 2024 - February, 2025",
+    points: [
+      "Oversaw the development of e-commerce websites for 3 businesses that contracted Byteex for their product development.",
+      "Built a custom Shopify theme for a business that now has over 30 5-star reviews collected via the Judgeme app.",
+      "Implemented frontend solutions to store logic using HTML, CSS, custom JavaScript solutions and Liquid in a timely fashion.",
+    ],
+  },
   {
     title: "Lead Fullstack/Frontend Developer",
     company_name: "Migro",
@@ -227,6 +250,27 @@ const testimonials = [
 // The module below is still subject to change as more and more projects get completed
 
 const projects = [
+  {
+    name: "Everything 420",
+    description:
+      "Built a custom cart drawer from scratch, implemented a custom discount functions (not automatic discounts) that have been run 50+ million times in the space of just a month. Also worked on checkout UI extensions and implemented routine fixes and updates.",
+    tags: [
+      {
+        name: "Shopify Functions",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Liquid",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ef420,
+    live_site_link: "https://www.everything420.com",
+  },
   {
     name: "Kind Ocean E-commerce Website",
     description:
