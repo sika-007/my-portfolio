@@ -127,7 +127,7 @@ const experiences = [
     iconBg: "white",
     date: "May 2025 - Present",
     points: [
-      "Built custom discount function that reduced reliance on third-party apps and helped saved about $4000 in monthly app fees.",
+      "Built a custom discount function that reduced reliance on third-party apps and helped save expenses in monthly app fees.",
       "Developed a custom logic heavy cart drawer from scratch",
       "Performed updates, upgrades and stability improvements to legacy code from previous versions of the Dawn theme.",
       "Implemented permanent fixes to recurring bugs on the live theme.",
